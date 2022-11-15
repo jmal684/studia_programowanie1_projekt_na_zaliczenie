@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include "Pracownik.h"
+#include "BazaPracownikow.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -30,6 +31,8 @@ Pracownik GenerujPracownikaZPliku(char rekord[], char separator) {
 		case 5:
 			strcpy(pracownik.numerTelefonu, informacja);
 			break;
+		case 6:
+			strcpy(pracownik.wyplata, informacja);
 		default:
 			break;
 		}
@@ -41,13 +44,40 @@ Pracownik GenerujPracownikaZPliku(char rekord[], char separator) {
 	return pracownik;
 }
 
-Pracownik GenerujPracownika(char numerSeryjny[], char imie[], char nazwisko[], char stanowisko[], char numerTelefonu[]) {
+char* Wyplata(char stanowisko[]) {
+	int indeks = 1;
+	char skrt = stanowisko[0];	
+	char wyplatyLista[4][12];
+	memcpy(wyplatyLista, OdczytajWyplaty(), 4*12);	
+
+	//dostosowywanie wyplat na podstawie posady
+	switch (skrt)
+	{
+	case 's':
+		return wyplatyLista[0];		
+		break;
+	case 'p':
+		return wyplatyLista[1];		
+		break;
+	case 'k':
+		return wyplatyLista[2];		
+		break;
+	case 'd':
+		return wyplatyLista[3];		
+		break;
+	default:
+		break;
+	}
+
+}
+Pracownik GenerujPracownika(char numerSeryjny[], char imie[], char nazwisko[], char stanowisko[], char numerTelefonu[], char wyplata[]) {
 	Pracownik pracownik;
 	strcpy(pracownik.numerSeryjny, numerSeryjny);
 	strcpy(pracownik.imie, imie);
 	strcpy(pracownik.nazwisko, nazwisko);
 	strcpy(pracownik.stanowisko, stanowisko);
 	strcpy(pracownik.numerTelefonu, numerTelefonu);
+	strcpy(pracownik.wyplata, wyplata);
 
 	return pracownik;
 }

@@ -1,12 +1,6 @@
 ﻿  BazaPracownikow.c
-  GwiazdaGra.c
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\GwiazdaGra.c(63,22): warning C4013: niezdefiniowany "time"; przy założeniu, że extern zwraca int
-  Pracownik.c
-  Struktura.c
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\Struktura.c(8,8): warning C4013: niezdefiniowany "system"; przy założeniu, że extern zwraca int
-  Generowanie kodu...
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\Struktura.c(37): warning C4715: "MenuGlowne”: niewszystkie ścieżki kodu zwracają wartość
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\GwiazdaGra.c(44): warning C4715: "GwiazdaGra”: niewszystkie ścieżki kodu zwracają wartość
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(27): warning C4715: "BazaPracownikow”: niewszystkie ścieżki kodu zwracają wartość
-E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(180): warning C4715: "WyswietlListe”: niewszystkie ścieżki kodu zwracają wartość
+E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(174,21): warning C4047: "return": "char *" różni się w poziomach operatorów pośrednich od "char [4][12]"
+E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(31): warning C4715: "BazaPracownikow”: niewszystkie ścieżki kodu zwracają wartość
+E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(355): warning C4715: "WyswietlListe”: niewszystkie ścieżki kodu zwracają wartość
+E:\studia_programowanie\Projekt_zaliczenie_ver2\Projekt_zaliczenie_ver2\BazaPracownikow.c(174): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej: wyplatyLista
   Projekt_zaliczenie_ver2.vcxproj -> E:\studia_programowanie\Projekt_zaliczenie_ver2\Debug\Projekt_zaliczenie_ver2.exe

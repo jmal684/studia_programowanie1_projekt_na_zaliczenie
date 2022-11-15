@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include "Struktura.h"
 #include "BazaPracownikow.h"
 #include "GwiazdaGra.h"
@@ -46,3 +47,4 @@ int WalidatorWyboru(const int poczatekZakresu, const int koniecZakresu) {
 	} while (1==1);
 	return wybor;
 }
+

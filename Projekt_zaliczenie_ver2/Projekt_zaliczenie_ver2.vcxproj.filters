@@ -49,5 +49,8 @@
     <Text Include="BazaPracownikow.txt">
       <Filter>Pliki źródłowe</Filter>
     </Text>
+    <Text Include="wyplaty.txt">
+      <Filter>Pliki źródłowe</Filter>
+    </Text>
   </ItemGroup>
 </Project>

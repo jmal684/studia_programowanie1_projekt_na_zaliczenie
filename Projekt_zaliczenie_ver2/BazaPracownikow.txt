@@ -1,1 +1,5 @@
-71-551,Jan,Kowalski,Kierownik,123-123-123
+71-551,Jan,Kowalski,Kierownik,123-123-123,12000
+12-123,Janina,Kozielec,kierownik,123-123-123,12000
+12-123,D,D,doradca,123-123-123,12000
+12-123,kierownik,kierownik,kierownik,122-123-123,12000
+12-123,Sekretna,Sekretarka,sekretarka,123-123-123,3500

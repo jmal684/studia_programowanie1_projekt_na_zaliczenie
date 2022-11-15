@@ -14,3 +14,7 @@ int IloscRekordowWBazie(char nazwaBazy[]);
 void DodajPracownika(Pracownik* dynamicznaListaPracownikow, int iloscRekordow);
 
 void UsunPracownika(Pracownik* dynamicznaListaPracownikow, int iloscRekordow);
+
+void ModyfikujWyplaty(Pracownik* dynamicznaListaPracownikow, int iloscRekordow);
+
+char * OdczytajWyplaty();
