@@ -33,6 +33,7 @@ int GwiazdaGra() {
 	else if (wybor == 2)
 	{
 		Instrukcja();
+		return 2;
 
 	}
 	else
@@ -205,7 +206,7 @@ void Instrukcja() {
 	system("cls");
 	puts("----------GDZIE JEST GWIAZA----------\n");
 
-	puts("Zadaniem gracza jest odnalezienie gwiazdy, która jest ukryta na jednym z pol planszy. Pod plansza wyswietlone sa informacje");
+	puts("Zadaniem gracza jest odnalezienie gwiazdy, ktÃ³ra jest ukryta na jednym z pol planszy. Pod plansza wyswietlone sa informacje");
 	puts("na temat wspolrzednych lokalizacji gracza, oraz jak bardzo odlegle sa one od wspolrzednych gwiazdki.\n");
 	puts("Przyklad:");
 	puts("Gwiazda: (Za MALO, Za DUZO)");
